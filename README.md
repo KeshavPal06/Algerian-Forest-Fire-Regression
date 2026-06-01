@@ -96,6 +96,8 @@ Step 1: Clone the Repository
 Bash
 git clone [https://github.com/KeshavPal06/Algerian-Forest-Fire-Regression.git](https://github.com/KeshavPal06/Algerian-Forest-Fire-Regression.git)
 cd Algerian-Forest-Fire-Regression
+
+
 Step 2: Establish an Isolated Virtual Environment (Recommended)
 Bash
 # For Windows
@@ -110,6 +112,8 @@ Install the required packages list specified within the repository requirements 
 
 Bash
 pip install -r requirements.txt
+
+
 Step 4: Run the Flask Web Server
 Kick off the local server runtime tracking mechanism with the execution script command:
 
@@ -119,6 +123,7 @@ python application.py
 
 Step 5: Test the Model Endpoint
 Once the development console server begins running locally, navigate to the following URL in your web browser:
+
 
 Plaintext
 [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
